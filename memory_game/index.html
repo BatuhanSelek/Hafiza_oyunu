@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-info">
+            <div id="timer">Kalan Süre: <span id="time">60</span> saniye</div>
+            <div id="score">Score: <span id="score-value">0</span></div>
+            <select id="level-select">
+                <option value="4">Kolay (4x4)</option>
+                <option value="6">Orta (6x6)</option>
+                <option value="8">Zor (8x8)</option>
+            </select>
+        </div>
+        <div class="game-container"></div>
+        <div id="message" class="hidden">Tebrikler ! Kazandınız !</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
